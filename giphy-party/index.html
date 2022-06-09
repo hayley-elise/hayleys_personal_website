@@ -12,8 +12,6 @@
 
     <title> Hayley S. - Lab III </title>
 
-    <!-- JavaScript -->
-    <script src="app.js"> </script>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -22,8 +20,8 @@
 
 <body>
 
-    <div class="header" id="header-Div">
-        <h1 id="H1-header"> Hay's Giphy Party! </h1>
+    <div class="Header" id="header-Div">
+        <h1 id="H1-header"> Giphy Party! </h1>
     </div>
 
     <form id="Form-Tag">
@@ -31,16 +29,21 @@
         <br>
         <label for="Search" id="Search-Label"> Search for GIFS here: </label>
         <br> 
-        <input required type="text" id="Search-Bar" placeholder="EX: sunset gif">
+        <input required type="text" id="Search-Bar" value="" placeholder="EX: sunset gif">
         <!-- Seach button -->
-        <input type="submit" id="Search-Button" value="Go!">
+        <button type="submit" id="Search-Button"> Go! </button>
     </form>
 
-    <div class="Results" id="Results-Div">
+    <div class="Results" id="results-Div"></div>
 
-    </div>
-
+    <footer>
+        <br><br><br><br>
+        <img src="giphy_logo.gif" alt="Giphy Attribution">
+    </footer>
     
+     <!-- JavaScript -->
+     <script src="app.js"> </script>
+
 </body>
 
 

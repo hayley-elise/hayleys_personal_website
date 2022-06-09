@@ -9,7 +9,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#Form-Tag {
+form {
     text-align: center;
 }
 
@@ -22,18 +22,24 @@ body {
 #Search-Button {
     background-color: rosybrown;
     font-family: 'Times New Roman', Times, serif;
-    border-radius: 10px;
+    border-radius: 8px;
+    padding: 2px;
+    width: 3%;
 }
 
 #Search-Bar {
     background-color: lightgoldenrodyellow;
     color: black;
-    padding: 1px;
-    width: 55%;
+    padding: 2px;
+    width: 25%;
     font-family: 'Times New Roman', Times, serif;
 }
 
 ::placeholder {
     font-style: italic;
     opacity: 0.8;
+}
+
+footer {
+    text-align: center;
 }
