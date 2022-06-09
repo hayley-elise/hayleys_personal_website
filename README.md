@@ -1,3 +1,5 @@
 # hayleys_personal_website
-Lab III - June 8th, 2022
-Codepath SITE internship
+
+**Lab III** - June 8th, 2022
+<br>
+> ##### *Codepath SITE Internship*
